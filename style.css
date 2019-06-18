@@ -10,11 +10,12 @@ body {
   width: 100vw;
 }
 
-input {
+input, button {
   height: 20px;
+  margin: 0 2px;
   box-sizing: content-box;
 }
 
-input[type='submit'] {
+button {
   cursor: pointer;
 }
