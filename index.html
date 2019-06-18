@@ -7,10 +7,14 @@
   </head>
   <body>
     <div class="container">
-      <input id="search" type="text" placeholder="Name" autocomplete="off">
-      <button id="button" onclick="doSearch()">&#x1f50d;</button>
+      <div class="search-field">
+        <input id="search" type="text" placeholder="Name" autocomplete="off">
+        <button id="button" onclick="doSearch()">&#x1f50d;</button>
+      </div>
+      <div class="empty">
+        <p>No results</p>
+      </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
